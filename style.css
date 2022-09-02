@@ -1,0 +1,621 @@
+/* TODA LA PANTALLA */
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'figtree', sans-serif;
+    text-decoration: none;
+}
+
+/* UNICAMENTE EL BODY */
+body{
+    background-image: linear-gradient(black, dimgray,black);
+    background-color:dimgray;  
+}
+
+/* Contenedor del nav */
+.nav-container {
+    position:sticky;
+    top: 0;
+    font-family: 'dynapuff', cursive;
+    list-style-type: none;
+    background-color:rgb(78, 158, 78);
+    font-size: large;
+    margin-bottom: 15;
+    text-align: left;
+    text-decoration-line: none;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    z-index: 200;
+   
+}
+
+/* pelota de futbol */
+.nav-container span {
+    display: none;
+}
+
+
+/* Lista del contenedor */
+.nav-container__ul {
+    display: flex;
+    list-style-type: none;  
+    flex-direction: row;
+}
+
+/* Enlaces de redireccion en el contenedor */
+.nav-container__ul a{
+    margin: 0 15px;
+}
+
+/* Titulo */
+.header-h1 {
+    width: 1fr;
+    font-size: 80px;
+    text-align: center;
+    border: 10px ridge rgb(0, 122, 0);
+    border-radius: 10px;
+    background-color:darkolivegreen;
+    margin-top: 20px;
+    font-family:'aboreto', cursive;
+}
+/* Contenedor del iniciar sesion */
+.user-container {
+    border: 8px double green;
+    position: relative;
+    height: 100px;
+    width: 250px;
+    margin-top: 10px;
+    background-color:darkgray;
+    margin-bottom: 100px;
+}
+
+
+/* Titulo del iniciar sesion*/
+.user-container__h3 {
+    background-color: darkolivegreen;
+    display: inline-block;
+    padding: 10px;
+    height: 22px;
+    width: 230px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+   margin-right: 300px;   
+    
+}
+
+aside {
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(5 20%);
+    grid-template-rows:repeat(5 20%);
+    align-content: end;
+    justify-items:left;
+       
+}
+
+.contenedor-main-aside {
+    display:flex;
+    justify-content:space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+/* Contenedor del aside del index */
+.aside-container {
+    bottom: 250px;
+    right: 30px;
+
+    background-color: rgb(28, 56, 28);
+    border: solid 1px black;
+    border-radius: 15px;  
+    
+}
+
+/* Titulo del aside del index */
+.aside-container__h2 {
+    display: grid;
+    align-items: center;
+    margin-right:40px;
+    padding: 20px;
+    font-size: 40px;
+    background-color: greenyellow;
+    border-radius: 15px;
+    border-left: 5px solid green ;
+    border-bottom: 5px solid green;
+    text-align: center;
+    font-family:'rubik dirt', cursive;
+    
+}
+
+/* Parrafo del aside del index */
+.aside-container__parrafo {
+    font-size: 27px;
+    font-family: 'merriweather', serif;
+    border-bottom: 8px solid green;
+    border-radius: 5px;  
+    display: grid;   
+    
+}
+
+/* contenedor de los incriptos a torneos del index */
+.inscriptos-container {
+    position: relative;
+    margin-bottom: 100px;    
+}
+
+/* titulo de los inscriptos al torneo del index */
+.inscriptos-container__title {
+    display: inline;
+    font-size: 25px;
+    border-top: 7px solid green;
+    border-left: 7px solid green;
+    
+}
+
+
+/* titulo de los inscriptos al torneo del index */
+.inscriptos-container__title {
+    display: inline;
+    font-size: 25px;
+    border-top: 7px solid green;
+    border-left: 7px solid green;
+}
+
+/* Tabla de los inscriptos al torneo del index */
+.inscriptos-container__table {
+    width: 500px;
+    height: 200px;
+    border-color: rgb(13, 95, 13);
+    background-color: rgb(20, 32, 20);
+    color: white;
+    margin-top: 10px;
+    font-size:x-large;
+   
+}
+
+
+/* titulo tabla de turnos */
+.titulo-tabla {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    color:green;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: rgb(12, 12, 12);
+}
+/* tr de turnos */
+.tr-1 td {
+    font-size: 70px;
+    color:black;
+    background-color: rgb(42, 73, 42);
+
+}
+/* contenedor de la tabla de turnos */
+.table-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 40px;
+    background-color: rgb(67, 92, 67);
+}
+/* Contenedor del formulario */
+.form-container {
+    padding: 50px;
+    margin: 20px;
+    font-size: xx-large;
+    background-color: rgb(53, 100, 53);
+    display: inline-block;
+    border-radius: 20px;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    
+    }
+    
+    /* Caja al lado del nombre, apellido y email del formulario */
+    .form-container__input{
+        padding: 8px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border-radius: 5px;   
+    }
+    
+    /* estado civil del contactanos */
+    .div-estado_civil select {
+        padding: 8px;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+    }
+    
+    /* nombre del formulario del contactanos */
+    .div-nombre {
+        display: block;
+    }
+    /* Apellido del formulario del contactanos */
+    .div-apellido {
+        display: block;
+    }
+    /* Email del formulario del contactanos */
+    .div-email {
+        display: block;
+    }
+    
+    /* textarea del contactanos */
+    textarea {
+        padding: 10PX;
+        font-size: larger;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        display: block;
+        margin-bottom: 15px;
+    }
+    
+    /* Boton enviar del contactanos */
+    .boton-enviar {
+        padding: 5px;
+        font-size: large;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+    }
+    
+    /* Boton borrar del contactanos */
+    .boton-borrar {
+        display: inline-block;
+        padding: 5px;
+        font-size: large;
+        color:white;
+        background-color: black;
+        border-radius: 5px;
+    }
+/* titulo de la pag torneo */
+    .titulo-torneos {
+        background-color: aliceblue;
+        color: rgb(27, 69, 27);
+    }
+/* titulo de la pag multimedia */
+    .titulo-multimedia {
+        background-color: aliceblue;
+        color: rgb(27, 69, 27);
+    }
+
+
+
+/* footer */
+footer {
+    position: relative;
+    background-color: black;
+    color: white;
+   
+}
+
+/* contenedor de la imagen y la ubicacion*/
+.body-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+/* ubicacion */
+.body-img iframe {
+    display: grid;
+    grid-column-start: 4;
+}
+
+
+/* pantalla con una resolucion de 550px */
+@media (max-width: 550px) {
+    /* menu de navegacion  */
+    .nav-container{
+        flex-direction: row;
+    }
+
+    .nav-container__ul {
+        display: none;
+    }
+
+    .nav-container span{
+        background-color: green;
+        display: inline;
+    }
+    /* Titulo */
+    .header-h1{
+    font-size: 40px;
+    
+    }
+
+    /*contenedor del iniciar sesion */
+        .user-container {
+            width: 320px;
+            height: 150px;
+            font-size: 15px;
+      } 
+    /* titulo del iniciar sesion */
+        .user-container__h3 {
+            background-color: darkolivegreen;
+            width: 300px;
+            height: 50px;
+            font-size: 25px;
+
+       }
+    /* inputos del iniciar sesion */
+         .user-container input {
+            font-size: 18px;
+  
+       }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pantalla con una resolucion de 1035px */
+@media (max-width:1035px) {
+    .contenedor-main-aside {
+        display: grid;
+        grid-template-columns: repeat(5 20%);
+        grid-template-rows:repeat(5 20%);
+        
+    }
+
+    main {
+       
+        
+    }
+
+    aside {
+    
+   
+    }
+}
+
+
+    
+/* Contenedor del aside y del main*/
+@media (max-width:600px) {
+    .contenedor-main-aside {
+        display: grid;
+        grid-template-columns: repeat(5 20%);
+        grid-template-rows:repeat(5 20%);
+        
+    }
+
+    main {
+        display: grid;
+        align-content: flex-start;
+    
+        
+    }
+
+    aside {
+        width: 250px;
+        margin: 0;
+        display: grid;
+        align-content:end;
+        justify-items:left;
+   
+    }
+
+    
+
+    .aside-container__h2{
+        text-align: center;
+        width: 230px;
+       
+        
+    }
+
+    .aside-container__parrafo{
+        width: 250px;
+        text-align: center;
+        justify-items: center;
+        align-content:flex-end;
+       
+    }
+}
+
+/* CONTENEDOR DE LA TABLA DE TURNOS ACHICANDOSE CADA VEZ
+QUE BAJO EL FONT-SIZE */
+@media (max-width:1200px) {
+        .tr-1 td {
+        font-size: 40px;
+        }
+    
+        .table-container { 
+        font-size: 40px;   
+        }
+}
+
+@media (max-width:996px) {
+        .tr-1 td {     
+        font-size: 30px;
+        }
+    
+        .table-container {
+        font-size: 30px; 
+        }
+}
+
+
+@media (max-width:750px) {
+       .tr-1 td {
+        font-size: 20px;
+       }
+    
+      .table-container {
+        font-size: 20px;
+       }
+       .body-img iframe{
+        width: 270px;
+       }
+
+
+}
+@media (max-width:589px) {
+      .titulo-tabla {
+        font-size: 12px;
+       }
+}
+
+ 
+
+@media (max-width:510px) {
+   
+      .tr-1 td {
+        font-size: 15px;
+       }
+      
+       .table-container {
+        font-size: 15px;
+       }
+       /* tabla del index*/
+       .inscriptos-container__table {
+        width: 200px;
+       }
+}
+
+
+@media (max-width:371px){
+       .tr-1 td {
+        font-size: 10px;
+       }
+       .table-container {
+        font-size: 10px;
+       }
+       .header-h1 {
+        font-size:20px ;
+       }
+
+}
+/* pantalla con una resolucion de 627px */
+/* grid aplicado en imagen y ubicacion */
+@media (max-width:627px) {
+    .body-img {
+        display: grid;
+        grid-template-columns:20% 20% 20% 20% 20%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        
+       
+        
+    }
+
+    .body-img iframe {
+      position:relative;
+      grid-column-start: 1;
+      grid-row-start: 3;
+      width:270px;
+      height: 100px;
+    }
+
+    .body-img img {
+        position: relative;
+        grid-column-start:1 ;
+        grid-row-start: 1;
+        width: 270px;
+        height: 100px;
+    }
+}
+
+@media (max-width:325px) {
+    /* tabla del index*/
+    .inscriptos-container__table {
+        width: 150px;
+        font-size: 20px;
+       }
+    
+}
+
+
+@media (max-width:335px) {
+    
+    /*contenedor del iniciar sesion */
+    .user-container {
+        width: 220px;
+        height: 100px;
+        font-size: 10px;
+  } 
+/* titulo del iniciar sesion */
+    .user-container__h3 {
+        background-color: darkolivegreen;
+        width: 200px;
+        height: 20px;
+        font-size: 15px;
+
+   }
+/* inputos del iniciar sesion */
+     .user-container input {
+        font-size: 10px;
+
+   }
+
+    
+}
+
+
+
